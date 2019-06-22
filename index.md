@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Note Seperator
 
-You can use the [editor on GitHub](https://github.com/StaticJunkk/Note-Seperator/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Aim
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### In every college student's life, notes are like currency. But after the exams, what's left is a pile of scattered images, ruining the perfect gallery. Note Seperator is designed to detect and suggest/delete these scattered images that no longer possess a value.
 
-### Markdown
+## Initial thoughts
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Before the initialization, it was clear that CNN (Convolutional Neural Networks) would be used for training the program. The excution would be done after saving the saving the weights
 
-```markdown
-Syntax highlighted code block
+## Libraries Used
 
-# Header 1
-## Header 2
-### Header 3
+### Overall working was done on python and the libraries used are
 
-- Bulleted
-- List
+--> Tensorflow
 
-1. Numbered
-2. List
+--> Keras
 
-**Bold** and _Italic_ and `Code` text
+--> OS
 
-[Link](url) and ![Image](src)
-```
+--> matplotlib.py
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Dataset
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/StaticJunkk/Note-Seperator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### The dataset was prepared with the help of the student body that had notes and non notes images, seperated category wise. He tried our best to get un-filtered images, as filters brighten up the images that would've misled the program.
 
-### Support or Contact
+## Applications
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Note Seperator has a huge role to play in a student's life, more into 'managing it'. The project is a classical example of use of machine learning in day to day life.
+
+## Imputs
+
+### From tweaking the model again and again, the following facts were illustrated
+
+--> The model showed optimum accuracy when the learning rate was reduced to 0.001
+
+--> The training time was highly reduced, without compromising with the accuracy when the first three layers had 16, 32 and 64 neurons in the first three layers.
+
+--> The accuracy of the model highly depends on the non-notes dataset, since the non-note part has a huge diversity to offer since everything that is not a note is a non-note data.
+
+
+## Experience
+
+### The learning experience was highly effective. The project made me look into the CNN models with great depth, specially the optimizers and the learning rate. However the biggest lesson was the efficiency of the dataset.
